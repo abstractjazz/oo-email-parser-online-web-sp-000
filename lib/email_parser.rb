@@ -14,7 +14,7 @@ def parse
   #   email.include?(" ")
   #   @email.split(" ")
   # elsif @email.include?(", ") && @email.include?(" ")
-EMAILADDRESSPARSER<<@email.split(/\s \, /).flatten
+EMAILADDRESSPARSER.flatten<<@email.split(/\s \, /)
 
 # else
 #   end

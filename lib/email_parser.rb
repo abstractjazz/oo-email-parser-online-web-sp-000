@@ -11,10 +11,10 @@ def parse
 if @email.include?(", ")
   @email.split(", ")
 else
-  if email.include?(" ")
+   email.include?(" ")
     @email.split(" ")
   end
-end 
+end
 
 end
 

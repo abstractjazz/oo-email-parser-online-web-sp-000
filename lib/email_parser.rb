@@ -8,7 +8,7 @@ def initialize(email_address)
 end
 
 def parse
-@email.split( ", ", " ") 
+@email.split( /[avi@test.com", "arel@test.com"]/) 
 end
 
 end

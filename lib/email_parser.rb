@@ -13,7 +13,8 @@ if @email.include?(", ")
 else
   if email.include?(" ")
     @email.split(" ")
-end
+  end
+end 
 
 end
 

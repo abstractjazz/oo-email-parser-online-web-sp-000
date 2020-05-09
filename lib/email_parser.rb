@@ -11,7 +11,7 @@ def parse
 if @email.include?(", ")
   @email.split(", ")
 else
-   email.include?(" ")
+    email.include?(" ")
     @email.split(" ")
   end
 end

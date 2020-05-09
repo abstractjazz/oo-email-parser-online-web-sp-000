@@ -15,6 +15,7 @@ elsif
     @email.split(" ")
   elsif @email.include?(", ") && @email.include?(" ")
 
+
 end
 
 end

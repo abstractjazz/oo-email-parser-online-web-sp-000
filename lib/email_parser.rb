@@ -10,13 +10,14 @@ end
 def parse
 if @email.include?(", ")
   @email.split(", ")
-else
+elsif
     email.include?(" ")
     @email.split(" ")
-  end
+  elsif @email.include?(", ") && @email.include?(" ")
+
 end
 
-end 
+end
 
 
 # Build a class EmailParser that accepts a string of unformatted

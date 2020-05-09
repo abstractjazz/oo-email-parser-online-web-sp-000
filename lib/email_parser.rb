@@ -9,6 +9,7 @@ end
 
 def parse
 @email.split([\s,]+/)
+
 # if @email.include?(", ")
 #   @email.split(", ")
 # elsif
@@ -17,7 +18,7 @@ def parse
 #   elsif @email.include?(", ") && @email.include?(" ")
 # else
 #   end
-end
+  end
 end
 
 

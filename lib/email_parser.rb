@@ -14,7 +14,7 @@ def parse
   #   email.include?(" ")
   #   @email.split(" ")
   # elsif @email.include?(", ") && @email.include?(" ")
-@email.split(/\s \, /).join(,)
+@email.split(/\s \, /).join(",")
 
 # else
 #   end

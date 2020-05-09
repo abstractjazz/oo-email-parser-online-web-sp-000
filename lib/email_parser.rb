@@ -8,16 +8,14 @@ def initialize(email_address)
 end
 
 def parse
-#if @email.include?(", ")
-  #@email.split(", ")
-#elsif
-  #   email.include?(" ")
-  #   @email.split(" ")
-  # elsif @email.include?(", ") && @email.include?(" ")
-@email.split(/\s \, /)
-
-# else
-#   end
+if @email.include?(", ")
+  @email.split(", ")
+elsif
+    email.include?(" ")
+    @email.split(" ")
+  elsif @email.include?(", ") && @email.include?(" ")
+else
+  end
 end
 
 end

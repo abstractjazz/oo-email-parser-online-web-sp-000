@@ -13,9 +13,8 @@ if @email.include?(", ")
 else
     email.include?(" ")
     @email.split(" ")
-  end
 end
-
+parse 
 end
 
 
